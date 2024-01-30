@@ -1,0 +1,85 @@
+*{
+    font-family: 'Figtree', sans-serif;
+}
+
+body{
+    background-color: #F6D050;
+   
+    
+}
+
+.Box{
+    /*familia da fonte */
+    font-family: 'Outfit', sans-serif;
+    background-color: white;
+    
+    /*altura*/
+    height: 520px;
+    /*largura*/
+    width: 400px;
+    
+
+    text-align: center;
+    margin: 3px;
+    border: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    /*sombra*/
+    box-shadow: 10px 10px rgba(0, 0, 0, 1);
+
+    /*posicao escolhida */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.left{
+    text-align: left;
+    margin: 10px;
+}
+
+img{
+    margin: 20px 0px;
+    border: 1px;
+    border-radius: 10px;
+}
+.Learning{
+    padding: 5px;
+    background-color: #F4D050;
+    text-align: left;
+    width: 65px;
+    border-radius: 5px;
+
+    /*negrito*/
+    font-weight: bold;
+}
+
+.foundations{
+    color: black;
+    padding: 20px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 100px 0px;
+    font-weight: 900;
+}
+.foundations:hover{
+    color: #F4D050;
+    
+}
+.perfil{
+    display: flex;
+}
+.pub{
+    font-weight: 700;
+}
+.name{
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 1.0em;
+
+}
+
+.perfil  img{
+    height: 40px;
+    width: 40px;
+}
